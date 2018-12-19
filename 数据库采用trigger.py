@@ -128,7 +128,7 @@ def trigger():
                     cursor.execute(sql)
                     db.commit()
                     results = cursor.fetchone()
-                    print(i+1,results)
+                    print(i,results)
 
 
                 except:
